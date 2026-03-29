@@ -1,23 +1,58 @@
 {
   "version": 1,
   "name": "Technical Product Manager",
-  "description": "Quick actions and tools for technical PMs — feature prioritization, PRDs, RICE scoring, sprint summaries, release notes, and adoption analysis.",
-  "author": { "name": "Vienna Team", "url": "https://tryvienna.com" },
-  "icon": "🎯",
-  "tags": ["product-management", "roadmap", "prioritization", "prd", "analytics"],
+  "description": "Quick actions and tools for technical PMs \u2014 feature prioritization, PRDs, RICE scoring, sprint summaries, release notes, and adoption analysis.",
+  "author": {
+    "name": "Vienna Team",
+    "url": "https://tryvienna.com"
+  },
+  "icon": "\ud83c\udfaf",
+  "tags": [
+    "product-management",
+    "roadmap",
+    "prioritization",
+    "prd",
+    "analytics"
+  ],
   "plugins": [
-    { "id": "linear", "requirement": "recommended", "reason": "Roadmap management and sprint planning with Linear" },
-    { "id": "profile_badge", "requirement": "recommended", "reason": "Shows active profile in menu bar" }
+    {
+      "id": "linear",
+      "requirement": "recommended",
+      "reason": "Roadmap management and sprint planning with Linear"
+    },
+    {
+      "id": "pm-badge",
+      "requirement": "recommended",
+      "reason": "Shows profile identity in menu bar"
+    }
   ],
   "skills": [
-    { "id": "product-thinking", "requirement": "recommended" }
+    {
+      "id": "product-thinking",
+      "requirement": "recommended"
+    }
   ],
   "quickActions": [
-    { "id": "feature-prioritize", "requirement": "recommended" },
-    { "id": "prd-writer", "requirement": "recommended" },
-    { "id": "sprint-summary", "requirement": "recommended" },
-    { "id": "release-notes", "requirement": "recommended" },
-    { "id": "adoption-analysis", "requirement": "recommended" }
+    {
+      "id": "feature-prioritize",
+      "requirement": "recommended"
+    },
+    {
+      "id": "prd-writer",
+      "requirement": "recommended"
+    },
+    {
+      "id": "sprint-summary",
+      "requirement": "recommended"
+    },
+    {
+      "id": "release-notes",
+      "requirement": "recommended"
+    },
+    {
+      "id": "adoption-analysis",
+      "requirement": "recommended"
+    }
   ],
   "registries": [],
   "settings": []
