@@ -12,7 +12,7 @@
     "author": { "name": "Drift Team" }
   },
   {
-    "id": "pm_badge",
+    "id": "pm-badge",
     "name": "Technical PM",
     "description": "Tools for product and project management",
     "version": "0.0.1",

@@ -1,4 +1,4 @@
 {
   "version": 1,
-  "defaults": ["linear", "pm_badge"]
+  "defaults": ["linear", "pm-badge"]
 }

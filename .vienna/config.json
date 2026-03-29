@@ -21,7 +21,7 @@
       "reason": "Roadmap management and sprint planning with Linear"
     },
     {
-      "id": "pm_badge",
+      "id": "pm-badge",
       "requirement": "recommended",
       "reason": "Shows profile identity in menu bar"
     }
