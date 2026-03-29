@@ -6,10 +6,11 @@
   "icon": "🎯",
   "tags": ["product-management", "roadmap", "prioritization", "prd", "analytics"],
   "plugins": [
-    { "id": "linear", "requirement": "recommended", "reason": "Roadmap management and sprint planning with Linear" }
+    { "id": "linear", "requirement": "recommended", "reason": "Roadmap management and sprint planning with Linear" },
+    { "id": "profile_badge", "requirement": "recommended", "reason": "Shows active profile in menu bar" }
   ],
   "skills": [
-    { "id": "getting-started", "requirement": "recommended" }
+    { "id": "product-thinking", "requirement": "recommended" }
   ],
   "quickActions": [
     { "id": "feature-prioritize", "requirement": "recommended" },

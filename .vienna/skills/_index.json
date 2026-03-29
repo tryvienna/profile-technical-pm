@@ -1,13 +1,13 @@
 [
   {
-    "id": "getting-started",
-    "name": "Getting Started",
-    "description": "Introduction to using Vienna profiles — how to customize and share",
+    "id": "product-thinking",
+    "name": "Product Thinking",
+    "description": "Product management — prioritization, user research, specs, and data-driven decisions",
     "version": "1.0.0",
     "source": "inline",
-    "icon": "👋",
-    "category": "Onboarding",
-    "tags": ["profiles", "onboarding", "getting-started"],
+    "icon": "🎯",
+    "category": "Product",
+    "tags": ["product-management", "prioritization", "user-research", "specs"],
     "author": { "name": "Vienna Team" }
   }
 ]
