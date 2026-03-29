@@ -1,0 +1,4 @@
+{
+  "version": 1,
+  "defaults": ["feature-prioritize", "prd-writer", "sprint-summary", "release-notes", "adoption-analysis"]
+}

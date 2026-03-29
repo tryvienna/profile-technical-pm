@@ -1,0 +1,127 @@
+[
+  {
+    "id": "feature-prioritize",
+    "label": "Prioritize features",
+    "icon": "📊",
+    "description": "Data-driven feature prioritization and RICE scoring",
+    "author": { "name": "Vienna Team" },
+    "tags": ["prioritization", "rice", "roadmap"],
+    "options": [
+      {
+        "id": "prioritize-rice",
+        "label": "Generate RICE scores",
+        "prompt": "Help me RICE score a set of feature requests. I'll list the features — for each one, help me estimate Reach, Impact, Confidence, and Effort. Calculate the RICE score and rank them. Challenge my assumptions where the data suggests a different estimate."
+      },
+      {
+        "id": "prioritize-data",
+        "label": "Cross-reference requests with usage data",
+        "prompt": "Help me decide what to build next. I'll describe the feature requests — cross-reference them with what we know about user behavior, drop-off points, and support tickets. Recommend which features would have the highest impact on retention and activation."
+      },
+      {
+        "id": "prioritize-tradeoffs",
+        "label": "Map trade-offs between options",
+        "prompt": "I have several features competing for the same engineering time. Help me map the trade-offs: user impact vs effort, short-term vs long-term value, revenue impact vs retention impact. Present a recommendation with clear reasoning."
+      }
+    ]
+  },
+  {
+    "id": "prd-writer",
+    "label": "Write a PRD",
+    "icon": "📝",
+    "description": "Product requirements documents from research and data",
+    "author": { "name": "Vienna Team" },
+    "tags": ["prd", "requirements", "specs"],
+    "options": [
+      {
+        "id": "prd-full",
+        "label": "Full PRD from feature description",
+        "prompt": "Write a PRD for the feature I'll describe. Include: problem statement (with data), user stories, success metrics, requirements (must-have, nice-to-have, out of scope), technical considerations, design requirements, launch plan, and open questions. Keep it concise — PMs read these in 5 minutes."
+      },
+      {
+        "id": "prd-one-pager",
+        "label": "One-page brief",
+        "prompt": "Write a one-page product brief for the feature I'll describe. Include: the problem (1 paragraph), the proposed solution (1 paragraph), success metrics (3-5 bullets), key risks (2-3 bullets), and estimated timeline. This is for exec review — be crisp."
+      },
+      {
+        "id": "prd-user-stories",
+        "label": "Generate user stories",
+        "prompt": "Generate user stories for the feature I'll describe. Use the format: 'As a [user type], I want to [action] so that [benefit].' Include acceptance criteria for each story and group them into logical epics. Prioritize by user value."
+      }
+    ]
+  },
+  {
+    "id": "sprint-summary",
+    "label": "Summarize this sprint",
+    "icon": "🔄",
+    "description": "Sprint summaries with shipped features and metrics",
+    "author": { "name": "Vienna Team" },
+    "tags": ["sprint", "summary", "agile"],
+    "options": [
+      {
+        "id": "sprint-shipped",
+        "label": "What did we ship?",
+        "prompt": "Summarize what the team shipped this sprint. Pull merged PRs and completed tickets, group them by feature area, and write a summary suitable for sharing with the broader team. Highlight user-facing changes vs infrastructure work."
+      },
+      {
+        "id": "sprint-vs-plan",
+        "label": "Plan vs actual",
+        "prompt": "Compare what we planned for this sprint vs what we actually completed. List: completed items, items carried over, unplanned work that came in, and anything descoped. Calculate our completion rate and suggest adjustments for next sprint planning."
+      },
+      {
+        "id": "sprint-cross-functional",
+        "label": "Cross-functional update",
+        "prompt": "Generate a cross-functional sprint update for design, engineering, and stakeholders. For each audience: highlight what's relevant to them, flag any dependencies or blockers they should know about, and preview what's coming next sprint."
+      }
+    ]
+  },
+  {
+    "id": "release-notes",
+    "label": "Draft release notes",
+    "icon": "🚀",
+    "description": "User-facing release notes and changelogs",
+    "author": { "name": "Vienna Team" },
+    "tags": ["release", "changelog", "communication"],
+    "options": [
+      {
+        "id": "release-user-facing",
+        "label": "User-facing release notes",
+        "prompt": "Draft user-facing release notes from recent merged PRs and completed tickets. Write in a friendly, non-technical tone. Group by: New Features, Improvements, and Bug Fixes. Include screenshots or descriptions of UI changes where relevant."
+      },
+      {
+        "id": "release-technical",
+        "label": "Technical changelog",
+        "prompt": "Generate a technical changelog from recent commits and PRs. Include: breaking changes (with migration guide), new APIs, deprecations, performance improvements, and bug fixes with issue references. Follow Keep a Changelog format."
+      },
+      {
+        "id": "release-email",
+        "label": "Release announcement email",
+        "prompt": "Draft a release announcement email for customers. Lead with the most exciting feature, include 2-3 supporting improvements, add a CTA to try the new features, and keep it under 300 words. Write in our brand voice — helpful, not salesy."
+      }
+    ]
+  },
+  {
+    "id": "adoption-analysis",
+    "label": "Analyze feature adoption",
+    "icon": "📈",
+    "description": "Feature adoption funnels and drop-off analysis",
+    "author": { "name": "Vienna Team" },
+    "tags": ["analytics", "adoption", "funnel"],
+    "options": [
+      {
+        "id": "adoption-funnel",
+        "label": "Adoption funnel for a feature",
+        "prompt": "Help me analyze the adoption funnel for a feature I'll describe. Break it into stages: aware → tried → adopted → retained. For each stage, suggest what metrics to track, where the likely drop-offs are, and what might improve conversion."
+      },
+      {
+        "id": "adoption-cohort",
+        "label": "Cohort retention analysis",
+        "prompt": "Help me set up a cohort retention analysis for a feature. I'll describe the feature and user base — suggest: cohort definitions, time windows, retention events, and how to segment by user type. Draft the analysis query if possible."
+      },
+      {
+        "id": "adoption-experiment",
+        "label": "Design an A/B test",
+        "prompt": "Help me design an A/B test for a feature change I'll describe. Include: hypothesis, primary and secondary metrics, sample size calculation, test duration estimate, segmentation strategy, and guardrail metrics to watch for negative effects."
+      }
+    ]
+  }
+]

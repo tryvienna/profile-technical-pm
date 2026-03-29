@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "name": "Technical Product Manager",
+  "description": "Quick actions and tools for technical PMs — feature prioritization, PRDs, RICE scoring, sprint summaries, release notes, and adoption analysis.",
+  "author": { "name": "Vienna Team", "url": "https://tryvienna.com" },
+  "icon": "🎯",
+  "tags": ["product-management", "roadmap", "prioritization", "prd", "analytics"],
+  "plugins": [
+    { "id": "linear", "requirement": "recommended", "reason": "Roadmap management and sprint planning with Linear" }
+  ],
+  "skills": [
+    { "id": "getting-started", "requirement": "recommended" }
+  ],
+  "quickActions": [
+    { "id": "feature-prioritize", "requirement": "recommended" },
+    { "id": "prd-writer", "requirement": "recommended" },
+    { "id": "sprint-summary", "requirement": "recommended" },
+    { "id": "release-notes", "requirement": "recommended" },
+    { "id": "adoption-analysis", "requirement": "recommended" }
+  ],
+  "registries": [],
+  "settings": []
+}
